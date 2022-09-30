@@ -17,6 +17,7 @@ resource "aws_ecr_repository_policy" "ecrpolicy" {
   policy = <<EOF
   {
     "Version": "2008-10-17",
+    "Id": "ecr-kms-permissions",
     "Statement": [
         {
             "Sid": "new policy",
