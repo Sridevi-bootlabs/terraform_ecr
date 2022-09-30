@@ -4,7 +4,6 @@ resource "aws_ecr_repository" "ecr" {
  
   encrytion_configuration{
     encryption_type = var.encryption_type
-    kms_key         = var.kms_key
   }
   
   image_scanning_configuration {
