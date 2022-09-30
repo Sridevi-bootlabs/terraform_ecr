@@ -16,8 +16,8 @@ variable "encryption_type" {
   default     = "AES256"
 }
 
-variable "kms_key" {
-  description = "The ARN of the KMS key to use when encryption_type is KMS. If not specified, uses the default AWS managed key for ECR"
-  type        = string
-  default     = ""
-}
+# variable "kms_key" {
+#   description = "The ARN of the KMS key to use when encryption_type is KMS. If not specified, uses the default AWS managed key for ECR"
+#   type        = string
+#   default     = ""
+# }
